@@ -1,0 +1,1 @@
+{"uuid": "add4c1e7-6be3-4c2f-9911-76c64bf6fa0f", "children": ["ecf580fc-523f-44ba-9a17-74bbdabaf3c3"], "befores": [{"name": "Запуск драйвера", "status": "passed", "start": 1727407381582, "stop": 1727407388649}], "afters": [{"name": "Запуск драйвера::0", "status": "passed", "start": 1727407414156, "stop": 1727407414906}], "start": 1727407381582, "stop": 1727407414906}
