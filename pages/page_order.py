@@ -5,7 +5,7 @@ from locators.locators_account_page import AccountPageLocators
 from locators.locators_main_page import MainPageLocators
 import allure
 
-import time
+
 class OrderPage(BasePage):
     def __init__(self, driver):
         super().__init__(driver)

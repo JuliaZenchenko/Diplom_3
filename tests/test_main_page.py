@@ -1,4 +1,4 @@
-import time
+
 
 import data
 import allure

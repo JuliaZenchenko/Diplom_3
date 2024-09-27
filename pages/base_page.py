@@ -84,7 +84,7 @@ class BasePage:
         WebDriverWait(self.driver, 20).until(EC.invisibility_of_element_located(locator))
 
     @allure.step('Генерация почты пароля имени для юзера')
-    def generate_create():
+    def generate_create(self):
         fake = Faker()
         email = fake.email(domain="yandex.ru")
         password = fake.password()

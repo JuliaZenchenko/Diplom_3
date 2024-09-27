@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 
 
 class OrderPageLocators:
-    ORDER_FIRST = (By.XPATH, '(.//a[contains(@class, "OrderHistory_link__1iNby")])[1]') # Первый заказ в истории заказазов
+    ORDER_FIRST = (By.XPATH, '(.//a[contains(@class, "OrderHistory_link")])[1]') # Первый заказ в истории заказазов
     WINDOW_INFORMATION_ABOUT_ORDER = (By.XPATH, './/div[contains(@class, "Modal_orderBox__1xWdi")]/parent::div/parent::section') # Окно с информацией о заказе
     EMAIL_AUTHORIZATION = (By.XPATH,".//input[@class = 'text input__textfield text_type_main-default' and  @name = 'name']")  # Поле ввода email
     PASSWORD_AUTHORIZATION = (By.XPATH, ".//input[@name = 'Пароль']")  # Поле ввода пароля
